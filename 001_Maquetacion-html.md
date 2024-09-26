@@ -1,4 +1,4 @@
-# HTML Y CSS
+# Maquetación de HTML
 
 - **HTML**: Hyper Text Mark Language (Lenguaje de Marcado de Hiper Texto)
 - **CSS**: Cascade Style Sheet (Hoja de Estilo en Cascada)
@@ -104,11 +104,84 @@ El div queda relegado a solo ser un wrapper o envolvente para ciertas ocaciones.
 | aside |  |  |  | |
 | footer |  |  |  | |
 
+### Ejemplo de la maquetación de HTML
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Don Silver</h1>
+        <p>Tiene un Ideal</p>
+        <ul>
+            <li>Maravilloso</li>
+            <li>Increible</li>
+            <li>Asombroso</li>
+        </ul>
+    </section>
+</body>
+</html>
+```
+
+<br>
+
+Así se muestra en el navegador:
+
+![maq-html](.imagenes/maq-html.png)
+
+<br>
+<br>
+
+Otro ejemplo con un poco mas de etiquetas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>about us</li>
+            <li>contact us</li>
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Old_women_in_Vietnam.jpg" alt="vietnamese Woman">
+        </div>
+        <div>
+            <h1>
+                Vietnam
+            </h1>
+            <p>Vietnam is awsome</p>
+        </div>
+    </section>
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text" id="name">
+    </form>
+    <a href="https://platzi.com/ruta/especialista-ciberseguridad/?school=_escuela_ciberseguridad_">Ciberseguridad</a>
+</body>
+</html>
+```
+
+En el navegador se vería así:
+
+![maq-etiquetas](.imagenes/maq-etiquetas.png)
 
 ## Enlaces de referencia
 
 Aquí abajo hay enlaces de referencia para la comprensión de todas las etiquetas disponibles en html.
 
 [Referencia HTML - Una guía gratis de todos los elementos y atributos de HTML.](https://htmlreference.io/)  
-[Codigo etiquetas.html del Curso Frontend Developer de Platzi](https://github.com/platzi/curso-frontend-developer/blob/5108689bdb6599cc92bd9595db28784f9be48704/curso-1/etiquetas.html)
+[Codigo etiquetas.html del Curso Frontend Developer de Platzi](https://github.com/platzi/curso-frontend-developer/blob/5108689bdb6599cc92bd9595db28784f9be48704/curso-1/etiquetas.html)  
 [44 etiquetas que debes conocer de HTML](https://platzi.com/blog/etiquetas-html-debes-conocer/)
