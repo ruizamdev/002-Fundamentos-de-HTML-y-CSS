@@ -2,6 +2,7 @@
 
 - **HTML**: Hyper Text Mark Language (Lenguaje de Marcado de Hiper Texto)
 - **CSS**: Cascade Style Sheet (Hoja de Estilo en Cascada)
+
 ## Motores de renderizado.
 
 Cada navegador tiene un motor que tranforma el HTML y el CSS de una forma que lo puedan entender y que lo visulaizan en la pantalla en forma de pixeles.
@@ -84,3 +85,30 @@ Esta es la estructura principal y básica que tiene un documento html, el cual e
 </html>
 ```
 
+## Html Semántico.
+
+Nos indica como utilizar propiedades adecuadas para los textos, parrafos, imagenes, secciones, etc.  
+El div queda relegado a solo ser un wrapper o envolvente para ciertas ocaciones.
+
+![estructura](.imagenes/estructura.png)
+
+## Etiquetas más utilizadas
+
+`<div>`
+| LAYOUT | TEXTOS | FORMULARIOS | ENLACES | IMÁGENES Y VIDEO | LISTAS |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| header | h1 ... h6 | form | a | img | ul |
+| nav | p | input |  | svg | li |
+| section | span | label |  | iframe | ol |
+| article |   | button |  | video | |
+| aside |  |  |  | |
+| footer |  |  |  | |
+
+
+## Enlaces de referencia
+
+Aquí abajo hay enlaces de referencia para la comprensión de todas las etiquetas disponibles en html.
+
+[Referencia HTML - Una guía gratis de todos los elementos y atributos de HTML.](https://htmlreference.io/)  
+[Codigo etiquetas.html del Curso Frontend Developer de Platzi](https://github.com/platzi/curso-frontend-developer/blob/5108689bdb6599cc92bd9595db28784f9be48704/curso-1/etiquetas.html)
+[44 etiquetas que debes conocer de HTML](https://platzi.com/blog/etiquetas-html-debes-conocer/)
