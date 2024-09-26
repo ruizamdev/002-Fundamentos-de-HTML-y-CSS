@@ -3,8 +3,8 @@
 ## Rutas a seguir
 
 1. Introducción al Desarrollo Web.  
-   1.1. Fundamentos de Programación y Desarrollo Web.  
-        1.1.1. Computación Básica y Pensamiento Lógico.  
+   1. 1. Fundamentos de Programación y Desarrollo Web.  
+        1. 1.1. Computación Básica y Pensamiento Lógico.  
                1.1.1.1 Curso Básico de Computadoras e Informática.  
                1.1.1.2 Curso de pensamiento Lógico: Algoritmos y Diagramas de Flujo.  
         1.1.2. Fundamentos de programación Básica.  
