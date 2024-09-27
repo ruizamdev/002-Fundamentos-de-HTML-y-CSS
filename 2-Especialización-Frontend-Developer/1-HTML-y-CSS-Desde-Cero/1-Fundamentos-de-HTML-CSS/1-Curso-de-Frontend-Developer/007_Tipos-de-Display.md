@@ -30,6 +30,7 @@ En [HTML Reference](https://htmlreference.io) podemos verificar el tipo de displ
 Los tags de tipo block, por default, ocupan todo el espacio en pantalla, sin propiedades, se van apilando uno por debajo del otro, según vayamos colocando en orden nuestras etiquetas, pueden ser modificados mediante width, height y margin los cuales son ancho, alto y margen, respectivamente.
 
 ```html
+<!DOCTYPE html>
 <head>
     <style>
         div {
