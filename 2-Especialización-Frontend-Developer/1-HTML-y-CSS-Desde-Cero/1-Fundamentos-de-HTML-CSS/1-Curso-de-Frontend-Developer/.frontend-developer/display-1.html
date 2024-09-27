@@ -7,24 +7,53 @@
     <style>
         div {
             background: salmon;
-            width: 200px;
-            height: 200px;
-            margin: 20px;
-            padding: 10px;
+            color: white; 
+            width: 100px;
+            height: 75px;
+            margin: 25px;
+            /* padding: 10px; */
         }
-        .p1 {
-            background: violet;
+        p {
+            color: red;
+        }
+        a {
+            color: white;
+            background: blue;
+            width: 75px;
+            height: 25px;
+            margin: 20px;
+        }
+        button {
+            color: white;
+            background: purple;
+        }
+        .b1 {
+            color: white;
+            background: indigo;
+            width: 75px;
+            height: 30px;
+            margin: 15px;
+        }
+        span {
+            color: green;
         }
     </style>
 </head>
 <body>
-    <div>
+    <div>Esto es un div, el cual es un tag de tipo bloque</div>
+    <!-- <div>
         Un div es un bloque
         <p>al cual se le puede modificar:</p>
         <p>ancho (width) = 200px</p>
         <p>alto (height) = 200px</p>
         <p>marge (margin) = 20px</p>
         <p class="p1">Un párrafo también es de tipo bloque</p>
-    </div>
+    </div> -->
+    <p>este de abajo es un enlace el cual es un tag in-line</p>
+    <a href="#">Enlace</a>
+    <a href="#">otro enlace</a><span>tags in-line se acomodan en horizontal</span>
+    <p>este de abajo es un boton el cual es un tag in-line-block</p>
+    <button>Botón</button>
+    <button class="b1">Botón 2</button>
 </body>
 </html>
