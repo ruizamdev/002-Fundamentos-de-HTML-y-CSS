@@ -2,9 +2,9 @@
 
 Cada vez que se sume: 
 
-$0 + 0 = 0$
-$1 + 0 = 1$
-$0 + 1 = 1$
+$0 + 0 = 0$  
+$1 + 0 = 1$  
+$0 + 1 = 1$  
 $1 + 1 = 0$ ---> se acarrea el 1 a la siguiente parte de la operación sumatoria
 
 $110 + 001 = 111$
