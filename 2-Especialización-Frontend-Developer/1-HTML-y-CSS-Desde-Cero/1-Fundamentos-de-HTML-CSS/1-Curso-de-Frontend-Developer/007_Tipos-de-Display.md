@@ -183,3 +183,5 @@ podemos ver en el inspector las propiedades del boton 2:
 <br>
 
 ![inlb2](.imagenes/inlb2.png)
+
+

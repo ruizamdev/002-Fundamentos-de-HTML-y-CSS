@@ -1,5 +1,7 @@
 # Suma y resta de números binarios.
 
+### Suma
+
 Cada vez que se sume: 
 
 $0 + 0 = 0$  
@@ -18,3 +20,17 @@ $110 + 011 = $
 | + | 0 | 1 | 1 |se suma el 1 acarreado con el numero de arriba que es 1: 1 + 1 = 0 y se vuelva a acarrear el 1 |
 | |  |  |  | |
 | 1 | 0 | 0 | 1 | ahora se suma ese segundo 1 acarreado con el número inferior que es 0: 1 + 0 = 1 colocando de lado izquierdo |
+
+<br>
+
+### Resta
+
+$0 - 0 = 0$  
+$1 - 0 = 1$  
+$1 - 1 = 0$  
+$0 - 1 = 1$ <--- se acarrea un bit 1 a la siguiente parte de la operación
+
+$101$
+$011$
+$010$
+
