@@ -1,4 +1,4 @@
-# Pensamiento Lógico Algoritmos y D
+# Pensamiento Lógico Algoritmos y Diagramas de flujo
 
 ## Operaciones matemáticas.
 - ¿Qué son?  
