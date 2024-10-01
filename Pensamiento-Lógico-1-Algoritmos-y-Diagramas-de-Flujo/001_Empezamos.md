@@ -69,7 +69,7 @@ Multiplicación
 SUMAS
 
 ```
-6 + 2 + 5 + 4 =
+6 + 2 + 5 + 4 = 17
 ```
 
 **3. Propiedad distributiva**
