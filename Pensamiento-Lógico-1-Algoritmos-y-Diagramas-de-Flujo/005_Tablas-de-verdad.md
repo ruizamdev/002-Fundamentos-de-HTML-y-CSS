@@ -33,6 +33,7 @@ F | F | **F**
 Es verdadero cuando ambas son verdad
 
 A | B | AB
+:---: | :---: | :---:
 V | V | **V**
 V | F | **V**
 F | F | **V**

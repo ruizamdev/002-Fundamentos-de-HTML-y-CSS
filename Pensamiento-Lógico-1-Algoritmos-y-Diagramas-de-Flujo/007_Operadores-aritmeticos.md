@@ -18,4 +18,15 @@ Ejemplo: [precio] - [descuento]
 
 ### Operador de multiplicación
 
+Símbolo: `*`
+Propósito: multiplica dos numeros
+Ejemplo: [cantidad] * [precio]
+
+<br>
+
+### Operador de división
+
+simbolo: `/`
+Propósito: divide el primer número entre el segundo
+Ejemplo: [total] / [cantidad de productos]
 
