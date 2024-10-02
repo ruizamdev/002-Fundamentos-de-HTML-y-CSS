@@ -16,21 +16,21 @@ Cada navegador tiene un motor que tranforma el HTML y el CSS de una forma que lo
 
 No importa que navegador sea o el motor que tenga, estos hacen lo mismo, y son 5 pasos:
 
-1. Transforma el HTML en objetos que entienede, denominado como **DOM** (Document Object Model), el cual es el mismo html pero entendible para el navegador. 
+1. Transforma el HTML en objetos que entiende, denominado como **DOM** (Document Object Model), el cual es el mismo html pero entendible para el navegador. 
 2. Calcula el estilo corespondiente a cada nodo o elementos de **DOM**.
 3. Calcula las dimensiones de cada nodo y donde va en la pantalla.
 4. Pinta las diferentes cajas.
-5. Toma las capas y las convierte en una imagen para mostrar en pantalla.
+5. Toma las cajas y las convierte en una imagen para mostrar en pantalla.
 
 ## Anatomía de un elemento y de HTML
 
-La siguiente sintaxis es con la que se conformara toda la estructura de html, cada elemento tiene una etiqueta de cierre `<h1>` y otra de cierre `</h1>` y dentro de las etiqueteas de apertura y de cierre vamos a tener lo que nosotros necesitemos dependiendo de la etiqueta. En el siguiente ejemplo mostramos la etiqueta de `header 1` que es un titulo.
+La siguiente sintaxis es con la que se conformara toda la estructura de html, cada elemento tiene una etiqueta de apertura `<h1>` y otra de cierre `</h1>` y dentro de las etiqueteas de apertura y de cierre vamos a tener lo que nosotros necesitemos dependiendo de la etiqueta. En el siguiente ejemplo mostramos la etiqueta de `header 1` que es un titulo.
 
 ```html
 <h1>DONSILVER</h1>
 ```
 
- A los elementos es posible agregarles atributos a través de las etiquetas, que nos serán de mucha ayuda que veremos mas adelante. En este caso en particular el atributo `class` que es el más usado, el cual nos permitirá comunicarnos con CSS. Estos atributos variarán dependiendo del tag o etiqueta que estemos escribiendo en html.
+ A los elementos es posible agregarles atributos a través de las etiquetas, que nos serán de mucha ayuda como veremos mas adelante. En este caso en particular el atributo `class` que es el más usado, el cual nos permitirá comunicarnos con CSS. Estos atributos variarán dependiendo del tag o etiqueta que estemos escribiendo en html.
 
  ```html
  <h1 class="title"> DONSILVER </h1>
