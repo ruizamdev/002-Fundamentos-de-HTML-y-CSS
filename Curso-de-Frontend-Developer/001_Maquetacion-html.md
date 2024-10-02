@@ -1,7 +1,7 @@
 # Maquetación de HTML
 
 - **HTML**: Hyper Text Mark Language (Lenguaje de Marcado de Hiper Texto)
-- **CSS**: Cascade Style Sheet (Hoja de Estilo en Cascada)
+- **CSS**: Cascading Style Sheet (Hoja de Estilo en Cascada)
 
 ## Motores de renderizado.
 
