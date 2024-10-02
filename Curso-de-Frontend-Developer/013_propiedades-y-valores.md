@@ -9,3 +9,6 @@
 |   |        |   | Color  | |
 
 [CSS Reference](https://cssreference.io)
+
+[EJERCICIO](frontend-developer/propiedades-mas-usadas.html)
+
