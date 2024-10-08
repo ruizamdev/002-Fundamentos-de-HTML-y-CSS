@@ -69,3 +69,6 @@ Para la inserción de videos ocupamos la etiqueta video, junto con unos cuantos 
 </video>
 ```
 
+<br>
+
+![video](./assets/images/video.png)
