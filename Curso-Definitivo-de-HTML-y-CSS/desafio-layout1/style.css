@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    display: inline-block;
+}
+nav {
+    display: inline-block;
+}
+.navbar{
+    justify-self: right;
+}
+.navbar li {
+    display: inline-block;
+}

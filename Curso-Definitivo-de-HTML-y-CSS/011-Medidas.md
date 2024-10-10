@@ -226,3 +226,76 @@ body {
    padding: 0;
 }
 ```
+
+<br>
+<br>
+
+### View width, View height y Max/Min Width
+
+```css
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding 0;
+}
+html {
+   font-size: 62.5%;
+}
+main {
+   width: 100vw;
+   height: 100vh;
+   background-color: purple;
+}
+section {
+   width: 80%;
+   height: 500px;
+   background-color: red;
+   margin: 0 auto;
+}
+```
+```html
+<main>
+   <section>
+
+   </section>
+</main>
+```
+
+> ***REGLA IMPORTANTE***: Cuando vayamos a utilizar el min/max en width debemos utilizar un width base y generalmente debe de estar en porcentaje
+
+![vw-vh](./assets/images/vw-vh.png)
+
+<br>
+<br>
+
+```css
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding 0;
+}
+main {
+   width: 100vw;
+   height: 100vh;
+   background-color: purple;
+}
+section {
+   width: 80%;
+   min-width: 320px;
+   max-width: 500px;
+   min-height: 500px;
+   background-color: red;
+   margin: 0 auto;
+}
+```
+```html
+<main>
+   <section>
+      <p>
+         Lorem ipsum...
+      </p>
+   </section>
+</main>
+```
+
+![max-min](./assets/images/max-min.png)

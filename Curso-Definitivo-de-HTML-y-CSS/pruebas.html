@@ -6,20 +6,50 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
-       html {
-         font-size: 62.5%;
+      .block-element {
+         background: green;
+         margin: 10px;
+         padding: 20px;
       }
-      p {
-         font-size: 1.6rem;
+      span {
+         background-color: blue;
+         color: white;
+         padding: 3px;
       }
-      main div {
-         font-size: 1.6rem;
-      }  
+      .nav {
+         background-color: palevioletred;
+         padding: 20px;
+         list-style: none;
+         text-align: center;
+      }
+      .nav li {
+         display: inline-block; /* Fusion de lo mejor de los dos valores*/
+         font-size: 20px;
+         margin: 10px;
+         padding-left: 20px;
+         padding-right: 20px;
+      }
     </style>
 </head>
 <body>
-   <main>
-      <p>Soy un texto ejemplo</p>
-   </main>
+   <div class="block-element">Esta es una etiqueta div</div>
+   <p class="block-element">Esta es una  etiqueta de parrafo</p>
+   <div>
+      <p class="parrafo">Lorem ipsum</p>
+      <p class="parrafo">Lorem ipsum</p>
+      <p class="parrafo">Lorem ipsum</p>
+   </div>
+   <span>tag span 1</span>
+   <span>tag span 2</span>
+   <span>tag span 3</span>
+
+   <ul class="nav">
+      <li>home</li>
+      <li>cursos</li>
+      <li>intructores</li>
+      <li>blog</li>
+   </ul>
 </body>
 </html>
+
+
