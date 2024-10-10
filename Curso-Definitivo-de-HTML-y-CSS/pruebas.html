@@ -6,49 +6,67 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
-      .block-element {
-         background: green;
-         margin: 10px;
-         padding: 20px;
+      * {
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
       }
-      span {
+      html {
+         font-size: 62.5%;
+      }
+      body {
+         font-size: 1.6rem;
+      }
+      .container {
+         border: .3rem solid black;
+         display: flex;
+         flex-wrap: wrap;
+      }
+      .box {
+         width: 10rem;
+         height: 10rem;
+      }
+      .box1 {
          background-color: blue;
-         color: white;
-         padding: 3px;
       }
-      .nav {
-         background-color: palevioletred;
-         padding: 20px;
-         list-style: none;
-         text-align: center;
+      .box2 {
+         background-color: blueviolet;
       }
-      .nav li {
-         display: inline-block; /* Fusion de lo mejor de los dos valores*/
-         font-size: 20px;
-         margin: 10px;
-         padding-left: 20px;
-         padding-right: 20px;
+      .box3 {
+         background-color: yellowgreen;
+      }
+      .box4 {
+         background-color: violet;
+      }
+      .box5 {
+         background-color: tomato;
+      }
+      .box6 {
+         background-color: red;
       }
     </style>
 </head>
 <body>
-   <div class="block-element">Esta es una etiqueta div</div>
-   <p class="block-element">Esta es una  etiqueta de parrafo</p>
-   <div>
-      <p class="parrafo">Lorem ipsum</p>
-      <p class="parrafo">Lorem ipsum</p>
-      <p class="parrafo">Lorem ipsum</p>
-   </div>
-   <span>tag span 1</span>
-   <span>tag span 2</span>
-   <span>tag span 3</span>
-
-   <ul class="nav">
-      <li>home</li>
-      <li>cursos</li>
-      <li>intructores</li>
-      <li>blog</li>
-   </ul>
+   <main class="container">
+      <div class="box1 box">
+         <p>box1</p>
+      </div>
+      <div class="box2 box">
+         <p>box2</p>
+      </div>
+      <div class="box3 box">
+         <p>box3</p>
+      </div>
+      <div class="box4 box">
+         <p>box4</p>
+      </div>
+      <div class="box5 box">
+         <p>box5</p>
+      </div>
+      <div class="box6 box">
+         <p>box6</p>
+      </div>
+   </main>
 </body>
 </html>
 
