@@ -4,7 +4,7 @@ Es la manera de hacer que las paginas de un sitio web se reendericen bien en cua
 <br>
 
 ## Mobile First/Only
-Hay diferentes estrategias para aplicar el responsive design, pero la que se recomienda más por el momento en el que estamos ahora, es el mobile first o mobile only, en el que se comienza diseñando para dispositivos móviles mas pequeños y de menor capacidad, y se va escalando el sitio hacia pantallas mas grandes, dígase smartphones de gama alta y pantallas mas grandes, tablets, laptops desde su variedad de tamaños desde 13 hasta 17 o 18 pulgadas, y por ultimo desktop en donde varía más el tamaño.
+Hay diferentes estrategias para aplicar el responsive design, pero la que se recomienda más por el momento en el que estamos ahora, es el mobile first o mobile only, en el que se comienza diseñando para dispositivos móviles mas pequeños y de menor capacidad, y se va escalando el sitio hacia pantallas mas grthemeandes, dígase smartphones de gama alta y pantallas mas grandes, tablets, laptops desde su variedad de tamaños desde 13 hasta 17 o 18 pulgadas, y por ultimo desktop en donde varía más el tamaño.
 
 Esta estrategia, es mejor en muchos, sentidos, tanto para el usuario, porque el rendimiento es mejor, como para el desarrollador, por que es mas fácil escalar el sitio desde pantallas chicas a mas grandes.
 

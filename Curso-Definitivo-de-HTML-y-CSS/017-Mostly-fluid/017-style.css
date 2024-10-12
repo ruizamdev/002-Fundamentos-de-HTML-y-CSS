@@ -8,7 +8,7 @@ html {
 }
 .container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Esta propiedad permite reposicionar los elementos siempre y cuando su tamaño lo permita, cuando el viewport crezca  */
 }
 .c1, .c2, .c3, .c4, .c5 {
     width: 100%;
