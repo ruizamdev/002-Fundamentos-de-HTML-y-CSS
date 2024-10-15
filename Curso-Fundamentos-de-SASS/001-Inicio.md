@@ -1,4 +1,4 @@
-# Fundamentos de SASS
+# Fundamentos de Sass
 Hojas de estilo sintacticamente asombrosas, por sus siglas en inglés (Syntactically Awesome Style Sheets) es un preprocesador de CSS que se utiliza para trabajar los estilos de proyectos web agregando funcionalidades que no cuenta css. Esta basado en el lenguaje de programación Ruby.
 
 <br>
@@ -14,7 +14,7 @@ Hojas de estilo sintacticamente asombrosas, por sus siglas en inglés (Syntactic
 ## Tipos de archivos y sintaxis.
 Sass es flexible y compatible con el CSS tradicional, por lo tanto cuando trabajemos con él, tenemos la opción de utilizar dos diferentes extensiones:
 
-- **.sass**: Utiliza una sintaxis identada, quitando el uso de llaves `{ }` y punto y coma `;` tras cada declaración.
+- **.Sass**: Utiliza una sintaxis identada, quitando el uso de llaves `{ }` y punto y coma `;` tras cada declaración.
 ```ruby
 $font-stack: Helvetica, sans-serif
 $primary-color: #3333
@@ -36,12 +36,12 @@ color: $primary-color;
 
 <br>
 
-## Anatomía de un proyecto en SASS
-Para hacer uso de SASS dentro de nuestro proyecto, tenemos que tener en cuenta 3 puntos importantes que forman parte del proceso de compilado.
+## Anatomía de un proyecto en Sass
+Para hacer uso de Sass dentro de nuestro proyecto, tenemos que tener en cuenta 3 puntos importantes que forman parte del proceso de compilado.
 
 - Input file
 - Output file
-- Los comandos para ejecutar y compilar SASS
+- Los comandos para ejecutar y compilar Sass
 
 ### Input file
 El archivo de entrada es donde vamos a escribir nuestrso estilos haciendo uso de la sintaxis de sass, incluyendo la extension .scss en el nombre del archivo.
@@ -63,14 +63,14 @@ my-first-sass-proyect/
 ## Tipos de instalación
 - Instalación global en el sistema operativo
 - Haciendo uso de Node.js
-- Dart SASS
-- Live SASS Compiler en VS Code (Utilizaremos esta)
+- Dart Sass
+- Live Sass Compiler en VS Code (Utilizaremos esta)
 
 <br>
 
 ### Instalación en VS Code
 Buscamos e instalamos estas extensiones:
 
-- SASS (oficial)
-- Live SASS Compiler
+- Sass (oficial)
+- Live Sass Compiler
 - Live Server

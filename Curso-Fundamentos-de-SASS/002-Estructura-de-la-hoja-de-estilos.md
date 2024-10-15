@@ -23,4 +23,31 @@ Se pueden utilizaqr en cualquier parte de la style sheet:
 <br>
 
 ## Tipos de variables
-Las variables pueden ser declaradas en cualquier parte 
+Las variables como sabremos a estas alturas es un espacio asignado en memoria y unicamente puede almacenar un dato. Su nombre describe perfectamente lo que es un dato que puede variar a lo largo de la ejecución de un programa.  
+Las variables pueden ser declaradas en cualquier parte de la hoja de estilos.
+
+Para asignar un valor a una variable se hace uso del símbolo de dinero `$`,  de esta manera es posible referenciar dentro de la hoja de estilos.
+
+```css
+$primary-color: blue;
+$secondary-color: green;
+$tertiary-color: purple;
+```
+
+<br>
+
+Existen diferencias entre las variables de CSS y las Variables de Sass:
+
+**Variables CSS**
+- Pueden tener diferentes valores para distintos elementos.
+- Son declarativas.
+
+**Variables Sass**
+- Tienen un valor único correspondiente a un elemento.
+- son imperativas.
+
+<br>
+
+### Flag !default
+Se encarga de asignar un valor a la variable si y solo si esa variable no esta definida o su valor es null.
+
