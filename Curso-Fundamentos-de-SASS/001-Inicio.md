@@ -34,3 +34,43 @@ color: $primary-color;
 }
 ```
 
+<br>
+
+## Anatomía de un proyecto en SASS
+Para hacer uso de SASS dentro de nuestro proyecto, tenemos que tener en cuenta 3 puntos importantes que forman parte del proceso de compilado.
+
+- Input file
+- Output file
+- Los comandos para ejecutar y compilar SASS
+
+### Input file
+El archivo de entrada es donde vamos a escribir nuestrso estilos haciendo uso de la sintaxis de sass, incluyendo la extension .scss en el nombre del archivo.
+
+### Output file
+El archivo de salida es donde se encontraran los estilos finales escritos en CSS nativo, que proviene del archivo de entrada.
+
+> **NOTA IMPROTANTE**: Jamas se debe de editar directamen el archivo de salida.
+
+Ejemplo de estructura del proyecto de sass:
+
+my-first-sass-proyect/  
+|---index.html  
+|----css  
+| &nbsp;  &nbsp; |----main.css &nbsp; &nbsp; &nbsp; <--- Archivo de salida  
+|----scss  
+ &nbsp; &nbsp; &nbsp; &nbsp;|----main.scss &nbsp; &nbsp; &nbsp; <--- Archivo de entrada  
+
+## Tipos de instalación
+- Instalación global en el sistema operativo
+- Haciendo uso de Node.js
+- Dart SASS
+- Live SASS Compiler en VS Code (Utilizaremos esta)
+
+<br>
+
+### Instalación en VS Code
+Buscamos e instalamos estas extensiones:
+
+- SASS (oficial)
+- Live SASS Compiler
+- Live Server
