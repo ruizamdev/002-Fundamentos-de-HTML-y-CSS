@@ -5,7 +5,9 @@ $quaternion-color: #fa9500;
 $primary-text-color: #7c6a0a;
 $font-stack: "IBM Plex Sans", sans-serif;
 $paragraph-size: 1.5em;
-
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -18,10 +20,9 @@ nav {
     justify-content: space-between;
     width: auto;
     color: $primary-text-color;
-    padding: 15px;
+    padding: 15px 45px;
     p {
-        font-size: 1.5 em;
-        padding-left: 30px;
+        font-size: 1.875em;
     }
     .icons {
         display: flex;
@@ -37,13 +38,28 @@ article {
     display: flex;
     justify-content: space-between;
     width: auto;
-    padding: 0 45px 0  45px;
+    padding: 70px 45px 0  45px;
     color: $primary-text-color;
+    .impact-section {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 50px;
+    }
+    .image-section {
+        
+        img {
+            width: 25vw;
+            border-radius: 19px;
+        }
+    }
     h1 {
         font-size: 3em;
+        margin: 0;
+        padding: 0;
     }
     p {
-        font-size: 1.5em;
+        font-size: $paragraph-size;
     }
     button {
         width: 20vw;
@@ -54,17 +70,141 @@ article {
         color: white;
         font-size: 1em;
     }
-    .impact-section {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        padding-top: 20px;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    padding: 45px;
+    h2 {
+        color: $primary-text-color;
+        font-size: 2em;
     }
-    .image-section {
-        
-        img {
-            width: 25vw;
-            border-radius: 19px;
+    .healthcare {
+        h2 {
+            font-size: 3.13em;
+            font-weight: 400;
+            margin-bottom: 47px;
+        } 
+        .card-section {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            .product-card {
+                display: flex;
+                flex-direction: column;
+                width: 324px;
+                height: 502px;
+                margin: 40px 30px;
+                padding: 15px;
+                background-color: $secondary-color;
+                border-radius: 8px;
+                box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+                .icon {
+                    align-self: flex-end;
+                    width: 31px;
+                    height: 31px;
+                }
+                .product-image {
+                    display: flex;
+                    align-self: center;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: auto;
+                    margin: 15px 0;
+                    img {
+                        width: 241px;
+                        height: 299px;
+                        border-radius: 8px;
+                    }
+                }
+             h3, p {
+                margin: 0 27px;
+                color: $primary-text-color;
+             }
+             h3 {
+                font-size: 1.563em;
+                font-weight: 600;
+                line-height: 32.5px;
+             }
+             p {
+                font-size: 0.94em;
+                font-weight: 400;
+                line-height: 19.5px;
+             }
+            }
+        }
+    }
+    .furniture {
+        @extend .healthcare;
+        .card-section {
+            .product-card {
+                background-color: $tertiary-color;
+                h3, p {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+.info-section {
+    h2 {
+        font-size: 3.125em;
+        font-weight: 500;
+        line-height: 65px;
+    }
+    .about-us {
+        .nosotros-container {
+            display: flex;
+            width: 100%;
+            margin: 120px 0;
+            .nosotros {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .earth, .innovation {
+                width: 50%;
+                text-align: center;
+                p {
+                    color: #e86424;
+                    font-size: 1.875em;
+                    line-height: 39px;
+                    font-weight: 500;
+                    
+                }
+            }
+        }
+    }
+    .gallery {
+        margin-bottom: 120px;
+        h2 {
+            margin-bottom: 75px;
+        }
+        .gallery-images {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+            width: 100%;
+            height: 48vh;
+            .gallery-image {
+                width: 33.333%;
+                height: 100%;
+                // min-width: 396px;
+                // max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
         }
     }
 }

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -10,11 +14,10 @@ nav {
   justify-content: space-between;
   width: auto;
   color: #7c6a0a;
-  padding: 15px;
+  padding: 15px 45px;
 }
 nav p {
-  font-size: 1.5 em;
-  padding-left: 30px;
+  font-size: 1.875em;
 }
 nav .icons {
   display: flex;
@@ -29,11 +32,23 @@ article {
   display: flex;
   justify-content: space-between;
   width: auto;
-  padding: 0 45px 0 45px;
+  padding: 70px 45px 0 45px;
   color: #7c6a0a;
+}
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 50px;
+}
+article .image-section img {
+  width: 25vw;
+  border-radius: 19px;
 }
 article h1 {
   font-size: 3em;
+  margin: 0;
+  padding: 0;
 }
 article p {
   font-size: 1.5em;
@@ -47,15 +62,129 @@ article button {
   color: white;
   font-size: 1em;
 }
-article .impact-section {
+
+section {
+  width: 100%;
+  height: auto;
+  padding: 45px;
+}
+section h2 {
+  color: #7c6a0a;
+  font-size: 2em;
+}
+section .healthcare h2, section .furniture h2 {
+  font-size: 3.13em;
+  font-weight: 400;
+  margin-bottom: 47px;
+}
+section .healthcare .card-section, section .furniture .card-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+section .healthcare .card-section .product-card, section .furniture .card-section .product-card {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  padding-top: 20px;
+  width: 324px;
+  height: 502px;
+  margin: 40px 30px;
+  padding: 15px;
+  background-color: #FFDAC6;
+  border-radius: 8px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 }
-article .image-section img {
-  width: 25vw;
-  border-radius: 19px;
+section .healthcare .card-section .product-card .icon, section .furniture .card-section .product-card .icon {
+  align-self: flex-end;
+  width: 31px;
+  height: 31px;
+}
+section .healthcare .card-section .product-card .product-image, section .furniture .card-section .product-card .product-image {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 15px 0;
+}
+section .healthcare .card-section .product-card .product-image img, section .furniture .card-section .product-card .product-image img {
+  width: 241px;
+  height: 299px;
+  border-radius: 8px;
+}
+section .healthcare .card-section .product-card h3, section .furniture .card-section .product-card h3, section .healthcare .card-section .product-card p, section .furniture .card-section .product-card p {
+  margin: 0 27px;
+  color: #7c6a0a;
+}
+section .healthcare .card-section .product-card h3, section .furniture .card-section .product-card h3 {
+  font-size: 1.563em;
+  font-weight: 600;
+  line-height: 32.5px;
+}
+section .healthcare .card-section .product-card p, section .furniture .card-section .product-card p {
+  font-size: 0.94em;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+section .furniture .card-section .product-card {
+  background-color: #babd8d;
+}
+section .furniture .card-section .product-card h3, section .furniture .card-section .product-card p {
+  color: #ffffff;
+}
+
+.info-section h2 {
+  font-size: 3.125em;
+  font-weight: 500;
+  line-height: 65px;
+}
+.info-section .about-us .nosotros-container {
+  display: flex;
+  width: 100%;
+  margin: 120px 0;
+}
+.info-section .about-us .nosotros-container .nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-section .about-us .nosotros-container .earth, .info-section .about-us .nosotros-container .innovation {
+  width: 50%;
+  text-align: center;
+}
+.info-section .about-us .nosotros-container .earth p, .info-section .about-us .nosotros-container .innovation p {
+  color: #e86424;
+  font-size: 1.875em;
+  line-height: 39px;
+  font-weight: 500;
+}
+.info-section .gallery {
+  margin-bottom: 120px;
+}
+.info-section .gallery h2 {
+  margin-bottom: 75px;
+}
+.info-section .gallery .gallery-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+  height: 48vh;
+}
+.info-section .gallery .gallery-images .gallery-image {
+  width: 33.333%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+.info-section .gallery .gallery-images .gallery-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
 }
 
 #footer {
