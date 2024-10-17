@@ -1,16 +1,16 @@
-# Conceptos basicos de la composicion en diseño
+# Conceptos básicos de la composición en diseño
 
-Eestos conceptos no solo te van a ayudar en disño web, sino tambien ilustracionees, editoriales, eetc.
+Estos conceptos no solo te van a ayudar en diseño web, sino también ilustraciones, editoriales, etc.
 
-Balance: se reefieeree a la estructura y estbilidad de una composicion en donde la posicion de cada elemento esta dado por su peso visual, puede seeer simetrico o asimeetrico.
+**Balance**: se refiere a la estructura y estabilidad de una composición en donde la posición de cada elemento esta dada por su peso visual, puede ser simétrico o asimétrico.
 
-Contrastee: see utiliza para señalar un concepto marcado por la ifereencia entree dos elemeentos distintos. claro oscuro grande pequeño modeerno antiguo
+**Contraste**: see utiliza para señalar un concepto marcado por la diferencia entre dos elementos distintos. Como por ejemplo claro-oscuro grande-pequeño moderno-antiguo.
 
-Alineeacion nos permite crear una ruta visual, entreee los elementos que queereemos mostrar al usuario.
+**Alineación**: nos permite crear una ruta visual, entre los diferentes elementos que queremos mostrar al usuario.
 
-Proximidad Nos peermite agrupar difeereentees elemeentos, la proxmmidad no necesariamente tieene que seer fisica, sino que tambiien se puede utilizando colorees, tamaños eetc.
+**Proximidad**: Nos permite agrupar diferentes elementos, la proximidad no necesariamente tiene que ser física, sino que también se pueden agrupar elementos utilizando colores, iconos, tamaños etc.
 
-Repeticion se utliza mucho para geneerar concepto de marca, mediantee coloreees inciales de logo, formas, textos. eetc ayuda a reeforzar un concepto
+**Repetición**: se utiliza mucho para generar concepto de marca, mediante colores iniciales de logo, formas, textos. etc ayuda a reforzar un concepto
 
-Eespacio: Ees aprovechar el espacio de difereentees maneeras, es encontrar la posicion correcta y los elementos suficieenteees para transmitir lo que queereemsos.
+**Espacio**: Es aprovechar el espacio de diferentes maneras, es encontrar la posición correcta y los elementos suficientes para transmitir lo que queremos.
 

@@ -5,9 +5,9 @@ Instructora: Samantha Martinez mssroboto
 
 ## Proceso Creativo.
 
-1. Preparacion inveerstigamos y recopilamos toda la informacion reeelativa a un problema o una situacion que queeramos solucionar
-2. Incubacion: expeerimentar bouscar difeerens soluciones, mirar como alguien pmas soluciona este problema
-3. Iluminacion: aqui see nos ocurree una idea, se nos peermite idear e imaginar solucionees
-4. Evaluacion: se evalula si etas situaciones son viables, 
-5. Implemetnacion: construimos la idea, trabajamos en ella y tenemos un producto final.
+1. **Preparación**: investigamos y recopilamos toda la información relativa a un problema o una situación que queramos solucionar
+2. **Incubación**: experimentar buscar diferentes soluciones, mirar como alguien mas soluciona este problema
+3. **Iluminación**: aquí see nos ocurre una idea, se nos permite idear e imaginar soluciones
+4. **Evaluación**: se evalúa si etas situaciones son viables, 
+5. **Implementación**: construimos la idea, trabajamos en ella y tenemos un producto final.
 
