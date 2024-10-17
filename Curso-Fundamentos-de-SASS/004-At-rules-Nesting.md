@@ -23,7 +23,7 @@ Las at-rules dentro de Sass ayudan a mantener la compatibilidad con próximas ve
 La anidación permite tener selectores dentro de otros, lo cual nos ayuda a simplificar código.  
 Escribiendo los selectores en el orden que aparecen en el HTML.
 
-```css
+```scss
 nav {
     ul {
         margin: 4px;

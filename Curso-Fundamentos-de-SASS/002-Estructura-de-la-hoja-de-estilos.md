@@ -28,7 +28,7 @@ Las variables pueden ser declaradas en cualquier parte de la hoja de estilos.
 
 Para asignar un valor a una variable se hace uso del símbolo de dinero `$`,  de esta manera es posible referenciar dentro de la hoja de estilos.
 
-```css
+```scss
 $primary-color: blue;
 $secondary-color: green;
 $tertiary-color: purple;

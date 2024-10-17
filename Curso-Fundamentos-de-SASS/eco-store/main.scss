@@ -1,3 +1,4 @@
+// VARIABLES
 $primary-color: #FFEFE7;
 $secondary-color: #FFDAC6;
 $tertiary-color: #babd8d;
@@ -6,6 +7,25 @@ $primary-text-color: #7c6a0a;
 $secondary-text-color: #e86424;
 $font-stack: "IBM Plex Sans", sans-serif;
 $paragraph-size: 1.5em;
+// ----------------------------
+
+// MIXINS
+@mixin flexCenter($direction,$content,$align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items: $align;
+}
+
+@mixin buttonStyle{
+    button {
+        background: none;
+        border-style: none;
+    }
+}
+// -----------------------------
+
+
 * {
     box-sizing: border-box;
 }
@@ -17,8 +37,7 @@ body {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
+    @include flexCenter(row, space-between, center);
     width: auto;
     color: $primary-text-color;
     padding: 15px 45px;
@@ -28,10 +47,7 @@ nav {
     .icons {
         display: flex;
         gap: 15px;
-        button {
-            background: none;
-            border-style: none;
-        }
+        @include buttonStyle;
     }
 }
 
@@ -66,15 +82,18 @@ article {
     p {
         font-size: $paragraph-size;
     }
+    @include buttonStyle;
     button {
         width: 20vw;
         padding: 20px;
         background-color: $quaternion-color;
-        border-style: none;
         border-radius: 35px;
         color: white;
         font-size: 1.45em;
         font-weight: 700;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
 
@@ -197,18 +216,21 @@ section {
             gap: 50px;
             width: 100%;
             height: 48vh;
-            .gallery-image {
+                .gallery-image {
                 width: 33.333%;
                 height: 100%;
                 // min-width: 396px;
                 // max-width: 400px;
                 border-radius: 10px;
                 box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
-                img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                    border-radius: 10px;
+            } 
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 16px;
+                object-fit: cover;
+                &:hover {
+                    transform: scale(1.1);
                 }
             }
         }

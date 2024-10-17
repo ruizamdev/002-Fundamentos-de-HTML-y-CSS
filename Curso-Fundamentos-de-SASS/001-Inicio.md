@@ -15,7 +15,7 @@ Hojas de estilo sintacticamente asombrosas, por sus siglas en inglés (Syntactic
 Sass es flexible y compatible con el CSS tradicional, por lo tanto cuando trabajemos con él, tenemos la opción de utilizar dos diferentes extensiones:
 
 - **.Sass**: Utiliza una sintaxis identada, quitando el uso de llaves `{ }` y punto y coma `;` tras cada declaración.
-```ruby
+```scss
 $font-stack: Helvetica, sans-serif
 $primary-color: #3333
 body
@@ -25,7 +25,7 @@ body
   <br>
 
 - **.scss**: Utiliza sintaxis tradicional.
-```css
+```scss
 $font-stack: Helvetica, sans-serif;
 $primary-color: #3333;
 body {

@@ -3,7 +3,7 @@ Es un mecanismo mediante el cual un selector puede recibir estilos CSS que viene
 
 La directiva @extend de Sass nos permite organizar código y crear CSS más limpio
 
-```css
+```scss
 .error {
     border: 1px #f00;
     background-color: #fdd;
