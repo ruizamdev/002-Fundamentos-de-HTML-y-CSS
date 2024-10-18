@@ -37,7 +37,7 @@ Universal | Verdana | |
 
 <br>
 
-Script (Para textos cortos que deseemos destacar)
+### Script (Para textos cortos que deseemos destacar)
 
 Personalidad | Fuentes | Combina con | Usos
 :---: | :---: | :---: | :---: 
