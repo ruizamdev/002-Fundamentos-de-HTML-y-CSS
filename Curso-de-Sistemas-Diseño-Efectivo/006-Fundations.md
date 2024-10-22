@@ -6,4 +6,4 @@ Son los elementos configurable con los cuales vamos a poder construir muchas cos
 - **Layouts-Spaces**
 - **Iconografía**
 - **Estilo**
-- **Tono**
+- **voz y Tono**
