@@ -8,9 +8,9 @@ Todas la siguientes son propiedades que nos permiten crear una grilla, definir s
 
 <br>
 
-Aquí tenemos nuestro primer ejemplo:  
+  
 
-<br>
+### Display: grid y Grid-template
 
 Tenemos un contenedor con 6 objetos block a los cuales les aplicamos las propiedades `grid-template-column` y `grid-template-row` definiendo sus tamaños.
 
@@ -52,6 +52,7 @@ Esto da como resultado 3 columnas de 100, 200 y 300 pixeles de izquierda a derec
 <br>
 <br>
 
+### Grid-auto-[row | column]
 También podemos utilizar las propiedades `grid-auto-column` y `grid-auto-row` para que CSSGrid nos cree las columnas y filas automáticamente, ya solo tendremos que definir el tamaño que qeremos para cada una de las dos.
 
 <br>
@@ -81,6 +82,7 @@ Aquí esta la muestra con el mismo html:
 <br>
 <br>
 
+### Grid-auto-flow
 Por defecto, Grid va rellenando las celdas con los items de izquierda a derecha de arriba hacia abajo, como lo podemos ver en los ejemplos anteriores.  
 Es posible cambiar ese comportamiento y ajustar el orden como queramos, utilizando `grid-auto-flow`:
 
@@ -108,6 +110,7 @@ Es posible cambiar ese comportamiento y ajustar el orden como queramos, utilizan
 <br>
 <br>
 
+### Gap
 También es posible crear brechas o espacios entre filas y columnas. 
 Lo podemos hacer con la propiedad `gap`:
 

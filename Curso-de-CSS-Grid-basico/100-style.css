@@ -1,14 +1,29 @@
 .contenedor {
     border: 5px solid #e1bee7;
-    background-color: darkgreen;
+    background-color: white;
     display: grid;
-    grid-template-rows: 100px 200px;
-    grid-auto-columns: 100px;
-    grid-auto-flow: column;
-    row-gap: 15px;
-    column-gap: 15px; 
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px;
+    grid-template-areas: "header header header" 
+    "aside main main" 
+    "aside main main";
+    place-content: center;
 }
 .item {
-    border: 5px solid #00bcd4;
     font-size: 4rem;
+}
+.item-1 {
+    border: 5px solid #f8bbd0;
+    background-color: #ffeeff;
+    grid-area: header;
+}
+.item-2 {
+    border: 5px solid #aea7af;
+    background-color: #fff1ff;
+    grid-area: aside;
+}
+.item-3 {
+    border: 5px solid #b2ebf2;
+    background-color: #e5ffff;
+    grid-area: main;
 }
