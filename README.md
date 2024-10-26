@@ -7,7 +7,7 @@
 5. [Curso de Responsive Design: Maquetación Mobile First](./05-Curso-Responsive-Design-Mobile-First) con Diego de Granda
 6. [Curso de Fundamentos de Sass](./06-Curso-Fundamentos-de-SASS) con Ana María Díaz Solorio
 7. [Curso de Diseño para Developers](./07-Curso-de-Diseño-para-Developers) con Samantha Martínez
-8. [Curso de Sistemas de Diseño Efectivo](./08-Curso-de-Sistemas-Diseño-Efectivo) con Rulótico
+8. [Curso de Sistemas de Diseño Efectivo](./08-Curso-de-Sistemas-Diseño-Efectivo) con Rulótico González
 9. [Curso de CSS Grid Básico](./09-Curso-de-CSS-Grid-basico) con Estefany Salas
 10. [Curso Práctico de Maquetación CSS](./10-Curso-Practico-de-Maquetacion-CSS) con Diego de Granda
 11. [Curso Profesional de CSS Grid Layout](./11-Curso-Profesional-de-CSS-Grid-Layout) con Estefany Aguilar
