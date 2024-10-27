@@ -1,4 +1,4 @@
-# Apuntes de la Carrera de Desarrollo Web de Platzi.
+# Apuntes de la Especialización en Frontend Developer de la Carrera en Desarrollo Web de Platzi.
 
 ## Especialización Frontend Developer
 
