@@ -142,7 +142,7 @@ Y aplicamos los siguientes estilos
 
 <br>
 
-Tendríamos el mismo efecto y acortaríamos un poco y aplicaríamos el paradigma de diseño DRY con el valor `repeat()`:
+Tendríamos el mismo efecto y acortaríamos un poco y aplicaríamos el paradigma de diseño DRY con la función `repeat()`:
 
 ```css
 .container {
@@ -423,3 +423,90 @@ body {
 ```
 
 ![implicit](./assets/images/implicit.png)
+
+<br>
+<br>
+
+## Funciones
+
+### repeat()
+Esta función nos permite crear valores repetibles, en este caso de grid columnas y filas, siempre y cuando sean de la misma medida, como lo vimos en un ejemplo anterior, pero aqui lo podemos volver a ejemplificar:
+
+Sin `repeat()`:
+```css
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+```
+Con `repeat()`:
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+```
+
+El primer valor dentro del parentesis indica las veces que se va a repetir, y el segundo la medida.
+
+<br>
+
+### minmax()
+
+Nos indica el tamaño mínimo y máximo de cada uno de los elementos de la grid. Esto nos permite mantener el tamaño de ciertos elemento que se pueden deformar al momento de cambiar el tamaño de viewport.
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 300px));
+}
+```
+
+![minmax](./assets/images/minmax.png)
+
+<br>
+
+### auto-fit
+
+Esta función nos permite ajustar las columnas (o el elemento al que se le declare, en este caso son columnas) automaticamente al ancho del viewport.
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+}
+```
+
+![auto-fit](./assets/images/autofit.png)
+
+<br>
+
+### auto-fill
+
+Crea columnas invisibles que rellenan el espacio disponible
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+}
+```
+
+![auto-fill](./assets/images/autofill.png)
+
+<br>
+
+### fit-content()
+
+Reserva un contenido bien definido.
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: auto fit-content(800px) auto;
+}
+```
+
+![fit-content](./assets/images/fitcontent.png)
