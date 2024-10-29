@@ -41,8 +41,8 @@ align-content |
 
 En general tenemos dos similitudes:
 
-- Relaciones entre containers e items (padres e hijos directos)
-- Ejes de alineamiento (inline y block)
+- Relaciones entre containers e items (padres e hijos directos), en donde los items también pueden ser containers y también en los dos (css grid y flexbox) las propiedades se dividen en dos, uno para container y otro para items
+- Ejes de alineamiento: inline y block, u horizontal y vertical.
 
 <br>
 
@@ -50,4 +50,29 @@ En general tenemos dos similitudes:
 
 Claro que sí, pero va a depender de lo que necesitemos, del diseño que tengamos y de lo que queramos.
 
-Desde mi punto de vista, hasta ahora después de haber tomado varios cursos de la ruta de frontend, CSS Grid, es preferible para un layout bastante amplio y que contiene secciones que tendrán mas elementos dentro, y flexbox, para elementos mas específicos.
+Desde mi punto de vista, y hasta ahora después de haber tomado varios cursos de la ruta de frontend, CSS Grid, es preferible para un layout bastante amplio y que contiene secciones que tendrán mas elementos dentro, y flexbox, para elementos mas específicos.
+
+<br>
+<br>
+
+## Dinamica.
+
+Se mostrarán varios componentes web y decidiremos que usar, si flexbox o css grid.
+
+1. [App bar: top](https://material.io/compnents)
+
+<br>
+
+![app-bar-top](./assets/images/app-bar-top.png)
+
+<br>
+
+**Mi respuesta**: Usaría flexbox, con un direction block, dividiria el area de notificaciones y la barra de navegacion en dos divs, uno en cada uno y tambien con flex cada uno de ellos, con esto podria alinear los items.
+
+<br>
+<br>
+
+## ¿Cuándo utilizar flexbox y cuándo CSS Grid?
+
+**Flexbox** es más apropiado para los componentes de una aplicación y diseños de pequeña escala.  
+**CSS Grid** es más apto para diseños de mayor escala
