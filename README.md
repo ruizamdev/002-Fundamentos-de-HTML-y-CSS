@@ -14,6 +14,6 @@
 9. [Curso de CSS Grid Básico](./09-Curso-de-CSS-Grid-basico) con Estefany Salas
 10. [Curso Práctico de Maquetación CSS](./10-Curso-Practico-de-Maquetacion-CSS) con Diego de Granda
 11. [Curso Profesional de CSS Grid Layout](./11-Curso-Profesional-de-CSS-Grid-Layout) con Estefany Aguilar
-
+12. [Curso de Diseño Web con CSS Grid y Flexbox](./12-Curso-de-Diseño-Web-con-CSS-Grid-y-Flexbox) con Estefany Aguilar
 ### JavaScript para Frontend.
  
