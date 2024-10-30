@@ -65,4 +65,41 @@ Es parecido al tema de jerarquía, debemos utilizar los colores, tamaños, contr
 ![balance](./assets/images/balance.png)
 
 <br>
+<br>
 
+## Wireframes y comunicación visual simple, intuitiva y atractiva.
+
+Antes de comenzar cualquier diseño Teffcode recomienda saber que es lo que queremos hacer y lograr:
+
+1. Saber que es lo que quiero: Para este curso haremos un reproductor de musica Mobile First.
+2. Hacer un boceto (Wireframe) con lapiz y papel o con herramientas online
+3. Pensar en la guía de estilos
+
+Trabajaremos también con el tema de **Neumorphism**  
+Tener en cuenta para el boceto que: ***Menos es más***  
+Pensemos siempre en una comunicación visual simple, intuitiva y atractiva.  
+Juega el papel de **usuario** siempre para todo lo que hagas.  
+Se tu propio **tester**.
+
+<br>
+<br>
+
+## Figma para devs: Auto Layout y Neumorphism
+
+### Pequeña introducción a figma
+
+Recomendaciones:  
+[Figma Community](https://www.figma.com/community): el *"Github"* para los diseñadores.  
+[Pinterest](https://mx.pinterest.com/): bueno para el moodboard  
+Leer del tema antes de que lo vayamos a desarrollar.  
+
+#### Instalacion de Figma
+Vamos a la [pagina oficial de Figma](https://www.figma.com), hacemos login o signup y empezamos a diseñar, asi de facil. 
+
+<br>
+
+![figma-1](./assets/images/figma-1.png)
+
+<br>
+
+![figma-2](./assets/images/figma-2.png)
