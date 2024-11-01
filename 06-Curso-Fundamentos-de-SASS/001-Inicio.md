@@ -74,3 +74,8 @@ Buscamos e instalamos estas extensiones:
 - Sass (oficial)
 - Live Sass Compiler
 - Live Server
+
+Después hay que configurar el compilador:
+Vamos a configuraciones (ctrl + ,)
+Vamos a live sass compiler > Settings: Formats
+checamos que la extensión sea correcta: .css y que la ruta de la carpeta donde se va a guardar el archivo de salida sea la correcta.
