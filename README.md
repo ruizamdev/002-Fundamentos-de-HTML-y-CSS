@@ -16,9 +16,12 @@
 11. [Curso Profesional de CSS Grid Layout](./11-Curso-Profesional-de-CSS-Grid-Layout) con Estefany Aguilar
 12. [Curso de Diseño Web con CSS Grid y Flexbox](./12-Curso-de-Diseño-Web-con-CSS-Grid-y-Flexbox) con Estefany Aguilar
 13. [Curso de Arquitecturas CSS](./13-Curso-de-Arquitecturas-CSS) con Estefany Aguilar
-14. [Curso de TailwindCSS 2 y 3()
-15. []
-16. []
+14. [Curso Básico de Tailwind 2 y 3]()
+15. [Curso de Transformaciones y Transiciones en CSS]()
+16. [Curso de Animaciones con CSS]()
+
+<br>
+
 ### JavaScript para Frontend.
-17. [Curso de Fundamentos de JavaScript]()
+17. [Curso de Fundamentos de JavaScript]() con Estefany Aguilar y Diego De Granda
 
