@@ -18,6 +18,8 @@ Significa que podemos cambiar gradualmente ciertas propiedades en un determinado
 
 En materia de animaciones con css, tenemos que tener un concepto bien presente, el cual es trigger, del inglés, gatillo, disparador, accionador.
 
+### Pseudo-classes
+
 ```css
 a:link {
   color: hotpink;
@@ -29,3 +31,36 @@ a:hover {
   background-color: palegoldenrod;
 }
 ```
+
+### Pseudo-elements
+
+```css
+div::before {
+  content: ":)";
+}
+div::after {
+  content: ":(";
+}
+```
+
+## Timing functions, planos y ejes
+
+### Timing functions
+
+Estos nos hablan de la aceleración de las animaciones.
+
+Se toman las aceleraciones del mundo real y se replican en las animaciones.
+
+Curvas de movimiento y aceleración:
+
+[Easings](https://easings.net/)
+
+[Cubic-bezier](https://cubic-bezier.com/)
+
+### Planos y ejes
+
+Eje X, Eje Y y Eje Z
+
+La pantalla del navegador es plana, pero podemos darle profundidad mediante capas y el contexto de apilamiento.
+
+![contexto-de-apilamiento](./assets/understanding_zindex_04.png)
