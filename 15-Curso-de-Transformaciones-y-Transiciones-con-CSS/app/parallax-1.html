@@ -1,33 +1,11 @@
-# Parallax con tranformaciones
-
-## Efecto parallax: Estructura HTML
-
-```html
-<body>
-  <div class="parallax-container">
-
-    <div class="image image__background">
-      <img src="https://i.ibb.co/jbLKgvX/Background.png" alt="background">
-    </div>
-    
-    <div class="image image__middle">
-      <div class="card one"></div>
-      <div class="card two"></div>
-      <div class="card three"></div>
-    </div>
-    
-    <div class="image image__foreground">
-      <img src="https://i.ibb.co/vJdbRkj/Alice.png" alt="foreground">
-    </div>
-  
-  </div>
-</body>
-```
-
-## Efecto parallax: Estilos CSS
-
-```css
-body {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax 1</title>
+  <style>
+    body {
       margin: 0;
     }
     .parallax-container {
@@ -83,6 +61,25 @@ body {
       right: 20%;
       bottom: -1000px;
     }
-```
+  </style>
+</head>
+<body>
+  <div class="parallax-container">
 
-## Transiciones
+    <div class="image image__background">
+      <img src="https://i.ibb.co/jbLKgvX/Background.png" alt="background">
+    </div>
+    
+    <div class="image image__middle">
+      <div class="card one"></div>
+      <div class="card two"></div>
+      <div class="card three"></div>
+    </div>
+    
+    <div class="image image__foreground">
+      <img src="https://i.ibb.co/vJdbRkj/Alice.png" alt="foreground">
+    </div>
+  
+  </div>
+</body>
+</html>
