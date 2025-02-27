@@ -84,5 +84,3 @@ body {
       bottom: -1000px;
     }
 ```
-
-## Transiciones

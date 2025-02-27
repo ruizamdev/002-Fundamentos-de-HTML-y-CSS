@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transition-duration</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
+      background-color: papayawhip;
+      width: 400px;
+      height: 100px;
+      margin: 30px;
+    }
+    .container:hover .box{
+      transform: scale(1.2)
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+    }
+    .box1 {
+      background-color: lightcoral;
+      transition: transform 500ms;
+    }
+    .box2 {
+      background-color: salmon;
+      transition: transform 1s;
+    }
+    .box3 {
+      background-color: darksalmon;
+      transition: transform 1.5s;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+  </div>
+</body>
+</html>
