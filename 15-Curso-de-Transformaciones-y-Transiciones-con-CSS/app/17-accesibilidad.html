@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .card {
+        width: 200px;
+        height: 200px;
+        transform-style: preserve-3d;
+        position: relative;
+        transition: transform 0.5s;
+        transform-style: preserve-3d;
+      }
+      /* .card:hover {
+      transform: rotateY(180deg);
+    } */
+      .card:hover .back {
+        opacity: 1;
+      }
+      .face {
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+      }
+      .face.front {
+        background: pink;
+      }
+      .face.back {
+        background: papayawhip;
+        /* transform: rotateY(180deg); */
+        transition-duration: 0.6s;
+        z-index: 2;
+        opacity: 0;
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        .card {
+          transition: transform 0.5s;
+          transform-style: preserve-3d;
+        }
+        .card:hover {
+          transform: rotateY(180deg);
+        }
+        .face {
+          backface-visibility: hidden;
+        }
+        .back {
+          transform: rotateY(180deg);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="face front"></div>
+      <div class="face back"></div>
+    </div>
+    <script>
+      (function () {
+        function c() {
+          var b = a.contentDocument || a.contentWindow.document;
+          if (b) {
+            var d = b.createElement("script");
+            d.innerHTML =
+              "window.__CF$cv$params={r:'91df3ab72b5416be',t:'MTc0MTU3MjE0MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName("head")[0].appendChild(d);
+          }
+        }
+        if (document.body) {
+          var a = document.createElement("iframe");
+          a.height = 1;
+          a.width = 1;
+          a.style.position = "absolute";
+          a.style.top = 0;
+          a.style.left = 0;
+          a.style.border = "none";
+          a.style.visibility = "hidden";
+          document.body.appendChild(a);
+          if ("loading" !== document.readyState) c();
+          else if (window.addEventListener)
+            document.addEventListener("DOMContentLoaded", c);
+          else {
+            var e = document.onreadystatechange || function () {};
+            document.onreadystatechange = function (b) {
+              e(b);
+              "loading" !== document.readyState &&
+                ((document.onreadystatechange = e), c());
+            };
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>
