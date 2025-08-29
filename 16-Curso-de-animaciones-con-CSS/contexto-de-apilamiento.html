@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      width: 100%;
+      display: grid;
+      place-items: center;
+    }
+    .phone {
+      position: relative;
+      border: 8px solid black;
+      border-radius: 40px;
+      height: 600px;
+      width: 300px;
+      background: #CCEFFF;
+      box-shadow: 0 19px 38px rgba(0,0,0,0.30),
+      0 15px 12px rgba(0,0,0,0.22) ;
+    }
+    .layer-1 {
+      position: absolute;
+      z-index: 1;
+      height: 450px;
+      width: 80px;
+      background: white;
+      bottom: 0;
+      right: 60px;
+    }
+    .layer-2 {
+      position: absolute;
+      z-index: 2;
+      height: 450px;
+      width: 80px;
+      background: white;
+      bottom: 0;
+      left: 60px;
+    }
+    .layer-3 {
+      position: absolute;
+      z-index: 3;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 220px;
+      height: 400px;
+      background: wheat;
+      bottom: 0;
+    }
+    .layer-4 {
+      position: absolute;
+      z-index: 4;
+      height: 350px;
+      width: 80px;
+      background: white;
+      bottom: 0;
+      left: 60px;
+    }
+    .layer-5 {
+      position: absolute;
+      z-index: 5;
+      left: 0;
+      margin: 0 auto;
+      width: 220px;
+      height: 300px;
+      background: rgb(202, 171, 112);
+      border-radius: 0 0 0 32px;
+      bottom: 0;
+    }
+    .layer-6 {
+      position: absolute;
+      z-index: 6;
+      height: 250px;
+      width: 80px;
+      background: white;
+      bottom: 0;
+      right: 35px;
+    }
+    .layer-7 {
+      position: absolute;
+      z-index: 7;
+      right: 0;
+      margin: 0 auto;
+      width: 155px;
+      height: 200px;
+      background: rgb(148, 120, 68);
+      border-radius: 0 0 32px 0;
+      bottom: 0;
+    }
+    .layer-8 {
+      position: absolute;
+      z-index: 8;
+    }
+    .layer-9 {
+      position: absolute;
+      z-index: 9;
+
+    }
+    .layer-10 {
+      position: absolute;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <div class="layer-1"></div>
+    <div class="layer-2"></div>
+    <div class="layer-3"></div>
+    <div class="layer-4"></div>
+    <div class="layer-5"></div>
+    <div class="layer-6"></div>
+    <div class="layer-7"></div>
+    <div class="layer-8"></div>
+    <div class="layer-9"></div>
+    <div class="layer-10"></div>
+  </div>
+</body>
+</html>
